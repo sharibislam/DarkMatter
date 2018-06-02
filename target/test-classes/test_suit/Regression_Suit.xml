@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ToDoSuite">
+	<test name="ToDosTestcases">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="baseurl"
+			value="http://todomvc.com/examples/troopjs_require/#/" />
+		<classes>
+			<class name="com.darkmatter.test.TodosTestCase" />
+		</classes>
+	</test>
+</suite>

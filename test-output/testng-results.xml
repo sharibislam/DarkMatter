@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ToDoSuite" duration-ms="242726" started-at="2018-06-02T22:03:23Z" finished-at="2018-06-02T22:07:26Z">
+    <groups>
+    </groups>
+    <test name="ToDosTestcases" duration-ms="126653" started-at="2018-06-02T22:03:23Z" finished-at="2018-06-02T22:05:30Z">
+      <class name="com.darkmatter.test.TodosTestCase">
+        <test-method status="PASS" signature="InitiateDriver(java.lang.String, java.lang.String)[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="InitiateDriver" is-config="true" duration-ms="21082" started-at="2018-06-03T03:33:23Z" finished-at="2018-06-03T03:33:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://todomvc.com/examples/troopjs_require/#/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriver -->
+        <test-method status="PASS" signature="testActiveToDoItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="testActiveToDoItem" duration-ms="20838" started-at="2018-06-03T03:33:45Z" description="Create to do list and mark on todo item is as completed and then validated how many active to do items left" finished-at="2018-06-03T03:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActiveToDoItem -->
+        <test-method status="PASS" signature="StopDriver(org.testng.ITestResult)[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="StopDriver" is-config="true" duration-ms="2073" started-at="2018-06-03T03:34:05Z" finished-at="2018-06-03T03:34:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testActiveToDoItem status=SUCCESS method=TodosTestCase.testActiveToDoItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+        <test-method status="PASS" signature="InitiateDriver(java.lang.String, java.lang.String)[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="InitiateDriver" is-config="true" duration-ms="13918" started-at="2018-06-03T03:34:07Z" finished-at="2018-06-03T03:34:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://todomvc.com/examples/troopjs_require/#/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriver -->
+        <test-method status="PASS" signature="testClearedCompletedItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="testClearedCompletedItem" duration-ms="15899" started-at="2018-06-03T03:34:21Z" description="Create to do list and mark on todo item is as completed and then clear the completed list from do list" finished-at="2018-06-03T03:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearedCompletedItem -->
+        <test-method status="PASS" signature="StopDriver(org.testng.ITestResult)[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="StopDriver" is-config="true" duration-ms="1593" started-at="2018-06-03T03:34:37Z" finished-at="2018-06-03T03:34:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClearedCompletedItem status=SUCCESS method=TodosTestCase.testClearedCompletedItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+        <test-method status="PASS" signature="InitiateDriver(java.lang.String, java.lang.String)[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="InitiateDriver" is-config="true" duration-ms="8570" started-at="2018-06-03T03:34:39Z" finished-at="2018-06-03T03:34:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://todomvc.com/examples/troopjs_require/#/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriver -->
+        <test-method status="PASS" signature="testCompleteTodoItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="testCompleteTodoItem" duration-ms="15727" started-at="2018-06-03T03:34:47Z" description="Create to do list for daily task and mark first item as completed " finished-at="2018-06-03T03:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteTodoItem -->
+        <test-method status="PASS" signature="StopDriver(org.testng.ITestResult)[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="StopDriver" is-config="true" duration-ms="1628" started-at="2018-06-03T03:35:03Z" finished-at="2018-06-03T03:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCompleteTodoItem status=SUCCESS method=TodosTestCase.testCompleteTodoItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+        <test-method status="PASS" signature="InitiateDriver(java.lang.String, java.lang.String)[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="InitiateDriver" is-config="true" duration-ms="8395" started-at="2018-06-03T03:35:05Z" finished-at="2018-06-03T03:35:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://todomvc.com/examples/troopjs_require/#/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriver -->
+        <test-method status="PASS" signature="testCreateTodoList()[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="testCreateTodoList" duration-ms="15409" started-at="2018-06-03T03:35:13Z" description="Create to do list for daily task" finished-at="2018-06-03T03:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTodoList -->
+        <test-method status="PASS" signature="StopDriver(org.testng.ITestResult)[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c]" name="StopDriver" is-config="true" duration-ms="1481" started-at="2018-06-03T03:35:29Z" finished-at="2018-06-03T03:35:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateTodoList status=SUCCESS method=TodosTestCase.testCreateTodoList()[pri:0, instance:com.darkmatter.test.TodosTestCase@20398b7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- com.darkmatter.test.TodosTestCase -->
+    </test> <!-- ToDosTestcases -->
+    <test name="ToDosTestcases1" duration-ms="116063" started-at="2018-06-02T22:05:30Z" finished-at="2018-06-02T22:07:26Z">
+      <class name="com.darkmatter.test.TodosTestCase">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="beforeSuite" is-config="true" duration-ms="311" started-at="2018-06-03T03:33:23Z" finished-at="2018-06-03T03:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="InitiateDriver(java.lang.String, java.lang.String)[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="InitiateDriver" is-config="true" duration-ms="8904" started-at="2018-06-03T03:35:30Z" finished-at="2018-06-03T03:35:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://todomvc.com/examples/troopjs_require/#/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriver -->
+        <test-method status="PASS" signature="testActiveToDoItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="testActiveToDoItem" duration-ms="30655" started-at="2018-06-03T03:35:39Z" description="Create to do list and mark on todo item is as completed and then validated how many active to do items left" finished-at="2018-06-03T03:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActiveToDoItem -->
+        <test-method status="PASS" signature="StopDriver(org.testng.ITestResult)[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="StopDriver" is-config="true" duration-ms="2942" started-at="2018-06-03T03:36:10Z" finished-at="2018-06-03T03:36:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testActiveToDoItem status=SUCCESS method=TodosTestCase.testActiveToDoItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+        <test-method status="PASS" signature="InitiateDriver(java.lang.String, java.lang.String)[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="InitiateDriver" is-config="true" duration-ms="8268" started-at="2018-06-03T03:36:13Z" finished-at="2018-06-03T03:36:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://todomvc.com/examples/troopjs_require/#/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriver -->
+        <test-method status="PASS" signature="testClearedCompletedItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="testClearedCompletedItem" duration-ms="15652" started-at="2018-06-03T03:36:21Z" description="Create to do list and mark on todo item is as completed and then clear the completed list from do list" finished-at="2018-06-03T03:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearedCompletedItem -->
+        <test-method status="PASS" signature="StopDriver(org.testng.ITestResult)[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="StopDriver" is-config="true" duration-ms="788" started-at="2018-06-03T03:36:37Z" finished-at="2018-06-03T03:36:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClearedCompletedItem status=SUCCESS method=TodosTestCase.testClearedCompletedItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+        <test-method status="PASS" signature="InitiateDriver(java.lang.String, java.lang.String)[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="InitiateDriver" is-config="true" duration-ms="8765" started-at="2018-06-03T03:36:37Z" finished-at="2018-06-03T03:36:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://todomvc.com/examples/troopjs_require/#/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriver -->
+        <test-method status="PASS" signature="testCompleteTodoItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="testCompleteTodoItem" duration-ms="15665" started-at="2018-06-03T03:36:46Z" description="Create to do list for daily task and mark first item as completed " finished-at="2018-06-03T03:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteTodoItem -->
+        <test-method status="PASS" signature="StopDriver(org.testng.ITestResult)[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="StopDriver" is-config="true" duration-ms="662" started-at="2018-06-03T03:37:02Z" finished-at="2018-06-03T03:37:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCompleteTodoItem status=SUCCESS method=TodosTestCase.testCompleteTodoItem()[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+        <test-method status="PASS" signature="InitiateDriver(java.lang.String, java.lang.String)[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="InitiateDriver" is-config="true" duration-ms="7641" started-at="2018-06-03T03:37:02Z" finished-at="2018-06-03T03:37:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://todomvc.com/examples/troopjs_require/#/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriver -->
+        <test-method status="PASS" signature="testCreateTodoList()[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="testCreateTodoList" duration-ms="15457" started-at="2018-06-03T03:37:10Z" description="Create to do list for daily task" finished-at="2018-06-03T03:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTodoList -->
+        <test-method status="PASS" signature="StopDriver(org.testng.ITestResult)[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="StopDriver" is-config="true" duration-ms="650" started-at="2018-06-03T03:37:26Z" finished-at="2018-06-03T03:37:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateTodoList status=SUCCESS method=TodosTestCase.testCreateTodoList()[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.darkmatter.test.TodosTestCase@887af79]" name="afterSuite" is-config="true" duration-ms="60" started-at="2018-06-03T03:37:26Z" finished-at="2018-06-03T03:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.darkmatter.test.TodosTestCase -->
+    </test> <!-- ToDosTestcases1 -->
+  </suite> <!-- ToDoSuite -->
+</testng-results>

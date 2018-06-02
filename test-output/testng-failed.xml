@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ToDoSuite]">
+  <parameter name="baseurl" value="http://todomvc.com/examples/troopjs_require/#/"/>
+  <parameter name="browserName" value="ie"/>
+  <test name="ToDosTestcases(failed)">
+    <parameter name="baseurl" value="http://todomvc.com/examples/troopjs_require/#/"/>
+    <parameter name="browserName" value="ie"/>
+    <classes>
+      <class name="com.darkmatter.test.TodosTestCase">
+        <methods>
+          <include name="StopDriver"/>
+          <include name="testActiveToDoItem"/>
+          <include name="testClearedCompletedItem"/>
+          <include name="beforeSuite"/>
+          <include name="testCompleteTodoItem"/>
+          <include name="testCreateTodoList"/>
+          <include name="InitiateDriver"/>
+        </methods>
+      </class> <!-- com.darkmatter.test.TodosTestCase -->
+    </classes>
+  </test> <!-- ToDosTestcases(failed) -->
+</suite> <!-- Failed suite [ToDoSuite] -->
